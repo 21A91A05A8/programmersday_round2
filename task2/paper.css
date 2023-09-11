@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+#computer-choice {
+    margin-top: 20px;
+}
+
+.highlighted {
+    border: 2px solid red;
+}
+.choice:hover {
+    border: 2px solid blue; 
+    background-color: lightcyan;
+    cursor: pointer; 
+}
+.choice{
+    border-radius: 100px;
+}
